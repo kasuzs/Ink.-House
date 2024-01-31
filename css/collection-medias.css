@@ -1,0 +1,76 @@
+@media (max-width: 690px) {
+    .section__collection {
+        min-height: 502px;
+        background-image: url(../img/bg-2.jpg);
+    }
+    .collection__head {
+        max-width: 450px;
+        margin-bottom: 30px;
+    }
+
+    .collection__head img {
+        height: 60px;
+        width: 60px;
+    }
+    
+    .collection__heading {
+        font-size: 30px;
+    }
+    
+    .section__description {
+        max-width: 690px;
+        margin-bottom: 30px;
+    }
+    
+    .collection__button {
+        padding: 18.5px 36.5px;
+    }
+}
+
+@media (max-width: 510px) {
+    .section__collection {
+        min-height: 500px;
+    }
+    .collection__head img {
+        height: 50px;
+        width: 50px;
+    }
+    .collection__head {
+        max-width: 331px;
+        margin-bottom: 20px;
+    }
+    .collection__heading {
+        font-size: 24px;
+    }
+    .section__description {
+        max-width: 510px;
+        color: #FFF;
+        font-size: 16px;
+        line-height: 140%;
+        margin-bottom: 20px;
+    }
+    .collection__button {
+        font-size: 18px;
+        padding: 14.5px 33.5px;
+    }
+}
+
+@media (max-width: 320px) {
+    .section__collection {
+        min-height: 580px;
+        margin-bottom: 50px;
+    }
+    .collection__head {
+        max-width: 290px;
+    }
+    .collection__heading {
+        font-size: 24px;
+    }
+    .section__description {
+        max-width: 290px;
+        margin-bottom: 30px;
+    }
+    .collection__button {
+        width: 100%;
+    }
+}

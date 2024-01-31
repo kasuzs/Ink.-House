@@ -1,0 +1,38 @@
+@media (max-width: 690px) {
+    .section__team {
+        flex-direction: column;
+        align-items: start;
+        justify-content: center;
+        gap: 40px;
+    }
+    .team__right {
+        max-width: none;
+        gap: 30px;
+        margin-bottom: 0;
+    }
+    .team__right-heading {
+        font-size: 30px;
+    }
+}
+
+@media (max-width: 510px) {
+    .section__team {
+        gap: 30px;
+    }
+    .team__right {
+        gap: 20px;
+    }
+    .team__right-heading {
+        font-size: 24px;
+    }
+    .team__right-description {
+        font-size: 16px;
+        line-height: 140%;
+    }
+}
+
+@media (max-width: 320px) {
+    .team__right-photoList {
+        gap: 20px;
+    }
+}

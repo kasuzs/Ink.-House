@@ -1,19 +1,22 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="shortcut icon" href="./img/favicon.png" type="image/x-icon">
   <link rel="stylesheet" href="./css/normalize.css">
   <link rel="stylesheet" href="./css/style.css">
-  <link rel="stylesheet" href="./css/header-media.css"> 
+  <link rel="stylesheet" href="./css/header-medias.css"> 
   <link rel="stylesheet" href="./css/hero-medias.css">
+  <link rel="stylesheet" href="./css/collection-medias.css">
+  <link rel="stylesheet" href="./css/team-medias.css">
+  <link rel="stylesheet" href="./css/footer-medias.css">
   <title>Ink. House</title>
 </head>
 <body>
 
-  <header class="header">
-    <div class="header__container">
+  <header class="header container">
+    <div class="header__container general-container">
 
       <div class="header__top">
         <a href="#" class="header__logo">
@@ -29,7 +32,7 @@
           </div>
     
           <div class="header__burger-menu">
-            <div href="##" class="header__burger-close">
+            <div class="header__burger-close">
               <img src="./img/x__header.svg" alt="krestik" class="header__close-menu-img">
             </div>
             <div class="header__burger-nav">
@@ -72,9 +75,9 @@
 
   </header>
 
-  <main class="main">
+  <main>
 
-    <section class="section__hero container">
+    <section class="section__hero general-container">
       <div class="hero__content">
         <div class="hero__left">
           <img src="./img/hero-img.png" alt="bird" class="hero-img">
@@ -93,12 +96,143 @@
       </div>
     </section>
 
+    <section class="container section__collection">
+        <div class="collection__content general-container">
+          <div class="collection__head">
+            <img src="./img/star-collection.svg" alt="star">
+            <h2 class="collection__heading">
+              Новая коллекция французских авторов
+            </h2>
+          </div>
+          <p class="section__description">
+            Сложно сказать, почему акционеры крупнейших компаний призывают нас к новым свершениям, которые, в свою очередь, должны быть заблокированы в рамках своих собственных рациональных ограничений. <br><br> 
+            Принимая во внимание показатели успешности, граница обучения кадров предопределяет высокую востребованность направлений прогрессивного развития.
+          </p>
+          <button class="collection__button">
+            Ознакомиться
+          </button>
+        </div>
+    </section>
 
+    <section class="section__team general-container">
+      <div class="team__left">
+        <img src="./img/left-team.png" alt="portrait" class="team__left-img">
+      </div>
+      <div class="team__right">
+        <h2 class="team__right-heading">
+          Наша команда
+        </h2>
+        <p class="team__right-description">
+          Значимость этих проблем настолько очевидна, что базовый вектор развития позволяет оценить значение экспериментов, поражающих по своей масштабности и грандиозности. Мы вынуждены отталкиваться от того, что консультация с широким активом.
+        </p>
+        <ul class="team__right-photoList">
+          <li class="photoList__item">
+            <img src="./img/team-1.jpg" alt="photo" class="photoList__image">
+          </li>
+          <li class="photoList__item">
+            <img src="./img/team-2.jpg" alt="photo" class="photoList__image">
+          </li>
+          <li class="photoList__item">
+            <img src="./img/team-3.jpg" alt="photo" class="photoList__image">
+          </li>
+        </ul>
+      </div>
+    </section>
   </main>
 
+  <footer class="container footer">
+    <div class="general-container footer__container">
+      <div class="footer__logo-number">
+        <div class="footer__logo">
+          <div class="footer__logo"> 
+            <a href="#" class="header__logo footer__logo">
+              <img src="./img/header-footer__logo.png" alt="logo">
+              <p class="header__text footer__text">Ink. House</p>
+            </a>
+          </div>
+        </div>
+        <div class="footer__number">
+          <a href="tel:+79995435454">+7 (999) 543-54-54</a>
+          <p class="footer__link number__description">Мастерская</p>
+        </div>
+      </div>
 
-  <footer>
+      <div class="footer__bottom">
+        <div class="footer__navlist">
+  
+          <nav class="footer__nav">
+            <h6 class="navlist__title">
+              Репродукции
+            </h6>
+            <ul class="footer__list">
+              <li class="footer__item">
+                <a href="#" class="footer__link">Франция</a>
+              </li>
+              <li class="footer__item">
+                <a href="#" class="footer__link">Германия</a>
+              </li>
+              <li class="footer__item">
+                <a href="#" class="footer__link">Англия</a>
+              </li>
+            </ul>
+          </nav>
+  
+          <nav class="footer__nav">
+            <h6 class="navlist__title">
+              Новинки
+            </h6>
+            <ul class="footer__list">
+              <li class="footer__item">
+                <a href="#" class="footer__link">2021</a>
+              </li>
+              <li class="footer__item">
+                <a href="#" class="footer__link">2020</a>
+              </li>
+            </ul>
+          </nav>
+  
+          <nav class="footer__nav">
+            <h6 class="navlist__title">
+              О нас
+            </h6>
+            <ul class="footer__list">
+              <li class="footer__item">
+                <a href="#" class="footer__link">Художники</a>
+              </li>
+              <li class="footer__item">
+                <a href="#" class="footer__link">Менеджеры</a>
+              </li>
+            </ul>
+          </nav>
+  
+        </div>
+  
+        <nav class="footer__nav-socials">
+          <ul class="footer__list-socials">
+            <li class="footer__list-item">
+              <a href="##" class="footer__list-link">
+                <img src="./img/facebook.svg" alt="facebook">
+              </a>
+            </li>
+            <li class="footer__list-item">
+              <a href="##" class="footer__list-link">
+                <img src="./img/inst.svg" alt="inst">
+              </a>
+            </li>
+              <li class="footer__list-item">
+              <a href="##" class="footer__list-link">
+                <img src="./img/youtube.svg" alt="youtube">
+              </a>
+            </li>
+          </ul>
+          <div class="footer__text">
+            <p>Ink. House ®</p>
+            <p>All rights reserved</p>
+          </div>
+        </nav>
 
+      </div>
+    </div>
   </footer>
   
   <script defer src="./js/index.js"></script>
