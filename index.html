@@ -38,13 +38,13 @@
             <div class="header__burger-nav">
               <ul class="header__list">
                 <li class="header__item">
-                  <a href="#" class="header__link">Репродукции</a>
+                  <a href="#reprod" class="header__link">Репродукции</a>
                 </li>
                 <li class="header__item">
-                  <a href="#" class="header__link">Новинки</a>
+                  <a href="#newCollection" class="header__link">Новинки</a>
                 </li>
                 <li class="header__item">
-                  <a href="#" class="header__link">О нас</a>
+                  <a href="#ourTeam" class="header__link">О нас</a>
                 </li>
               </ul>
             </div>
@@ -53,13 +53,13 @@
           <nav class="header__nav">
             <ul class="header__list">
               <li class="header__item">
-                <a href="#" class="header__link">Репродукции</a>
+                <a href="#reprod" class="header__link">Репродукции</a>
               </li>
               <li class="header__item">
-                <a href="#" class="header__link">Новинки</a>
+                <a href="#newCollection" class="header__link">Новинки</a>
               </li>
               <li class="header__item">
-                <a href="#" class="header__link">О нас</a>
+                <a href="#ourTeam" class="header__link">О нас</a>
               </li>
             </ul>
           </nav>
@@ -76,7 +76,7 @@
   </header>
 
   <main>
-
+    
     <section class="section__hero general-container">
       <div class="hero__content">
         <div class="hero__left">
@@ -96,7 +96,225 @@
       </div>
     </section>
 
-    <section class="container section__collection">
+    <section class="section__reprod general-container" id="reprod">
+      <div class="reprod__content">
+
+        <div class="reprod__head">
+          <h2 class="reprod__title">Репродукции</h2>
+          <nav class="reprod__nav">
+            <ul class="reprod__list">
+              <li class="reprod__item">
+                <button class="reprod__button active-reprod" data-path="france">
+                  Франция
+                </button>
+              </li>
+              <li class="reprod__item">
+                <button class="reprod__button" data-path="germany">
+                  Германия
+                </button>
+              </li>
+              <li class="reprod__item">
+                <button class="reprod__button" data-path="england">
+                  Англия
+                </button>
+              </li>
+            </ul>
+          </nav>
+        </div>
+
+        <div class="reprod__tab active-tab" data-target="france">
+          <div class="tab__content">
+            <ul class="tab__list">
+
+              <li class="tab__item">
+                <img src="./img/1_1.jpg" alt="photo" class="tab__photo">
+                <p class="tab__author">Марсель Руссо</p>
+                <h4 class="tab__name">Охота Амура</h4>
+                <p class="tab__desc">Холст, масло (50х80)</p>
+                <p class="tab__price">14 500 руб</p>
+                <button class="tab__button">В корзину</button>
+              </li>
+
+              <li class="tab__item">
+                <img src="./img/1_2.jpg" alt="photo" class="tab__photo">
+                <p class="tab__author">Анри Селин</p>
+                <h4 class="tab__name">Дама с собачкой</h4>
+                <p class="tab__desc">Акрил, бумага (50х80)</p>
+                <p class="tab__price">16 500 руб</p>
+                <button class="tab__button">В корзину</button>
+              </li>
+
+              <li class="tab__item">
+                <img src="./img/1_3.jpg" alt="photo" class="tab__photo">
+                <p class="tab__author">Франсуа Дюпон</p>
+                <h4 class="tab__name">Процедура</h4>
+                <p class="tab__desc">Цветная литография (40х60)</p>
+                <p class="tab__price">20 000 руб</p>
+                <button class="tab__button">В корзину</button>
+              </li>
+
+              <li class="tab__item">
+                <img src="./img/1_4.jpg" alt="photo" class="tab__photo">
+                <p class="tab__author">Луи Детуш</p>
+                <h4 class="tab__name">Роза</h4>
+                <p class="tab__desc">Бумага, акрил (50х80)</p>
+                <p class="tab__price">12 000 руб</p>
+                <button class="tab__button">В корзину</button>
+              </li>
+
+              <li class="tab__item">
+                <img src="./img/1_5.jpg" alt="photo" class="tab__photo">
+                <p class="tab__author">Франсуа Дюпон</p>
+                <h4 class="tab__name">Птичья трапеза</h4>
+                <p class="tab__desc">Цветная литография (40х60)</p>
+                <p class="tab__price">22 500 руб</p>
+                <button class="tab__button">В корзину</button>
+              </li>
+
+              <li class="tab__item">
+                <img src="./img/1_6.jpg" alt="photo" class="tab__photo">
+                <p class="tab__author">Пьер Моранж</p>
+                <h4 class="tab__name">Пейзаж с рыбой</h4>
+                <p class="tab__desc">Цветная литография (40х60)</p>
+                <p class="tab__price">20 000 руб</p>
+                <button class="tab__button">В корзину</button>
+              </li>
+
+
+            </ul>
+          </div>
+        </div>
+
+        <div class="reprod__tab" data-target="germany">
+          <div class="tab__content">
+            <ul class="tab__list">
+
+              <li class="tab__item">
+                <img src="./img/2_1.jpg" alt="photo" class="tab__photo">
+                <p class="tab__author">Курт Вернер</p>
+                <h4 class="tab__name">Над городом</h4>
+                <p class="tab__desc">Цветная литография (40х60)</p>
+                <p class="tab__price">16 000 руб</p>
+                <button class="tab__button">В корзину</button>
+              </li>
+
+              <li class="tab__item">
+                <img src="./img/2_2.jpg" alt="photo" class="tab__photo">
+                <p class="tab__author">Макс Рихтер</p>
+                <h4 class="tab__name">Птенцы</h4>
+                <p class="tab__desc">Холст, масло (50х80)</p>
+                <p class="tab__price">14 500 руб</p>
+                <button class="tab__button">В корзину</button>
+              </li>
+
+              <li class="tab__item">
+                <img src="./img/2_3.jpg" alt="photo" class="tab__photo">
+                <p class="tab__author">Мартин Майер</p>
+                <h4 class="tab__name">Среди листьев</h4>
+                <p class="tab__desc">Цветная литография (40х60)</p>
+                <p class="tab__price">20 000 руб</p>
+                <button class="tab__button">В корзину</button>
+              </li>
+
+              <li class="tab__item">
+                <img src="./img/2_4.jpg" alt="photo" class="tab__photo">
+                <p class="tab__author">Герман Беккер</p>
+                <h4 class="tab__name">Яркая птица</h4>
+                <p class="tab__desc">Цветная литография (40х60)</p>
+                <p class="tab__price">13 000 руб</p>
+                <button class="tab__button">В корзину</button>
+              </li>
+
+              <li class="tab__item">
+                <img src="./img/2_5.jpg" alt="photo" class="tab__photo">
+                <p class="tab__author">Вульф Бауэр</p>
+                <h4 class="tab__name">Дятлы</h4>
+                <p class="tab__desc">Бумага, акрил (50х80)</p>
+                <p class="tab__price">20 000 руб</p>
+                <button class="tab__button">В корзину</button>
+              </li>
+
+              <li class="tab__item">
+                <img src="./img/2_6.jpg" alt="photo" class="tab__photo">
+                <p class="tab__author">Вальтер Хартманн</p>
+                <h4 class="tab__name">Большие воды</h4>
+                <p class="tab__desc">Бумага, акрил (50х80)</p>
+                <p class="tab__price">23 000 руб</p>
+                <button class="tab__button">В корзину</button>
+              </li>
+
+            </ul>
+          </div>
+        </div>
+
+        <div class="reprod__tab" data-target="england">
+          <div class="tab__content">
+            <ul class="tab__list">
+
+              <li class="tab__item">
+                <img src="./img/3_1.jpg" alt="photo" class="tab__photo">
+                <p class="tab__author">Пол Смит</p>
+                <h4 class="tab__name">Дикий зверь</h4>
+                <p class="tab__desc">Акварель, бумага (50х80)</p>
+                <p class="tab__price">19 500 руб</p>
+                <button class="tab__button">В корзину</button>
+              </li>
+
+              <li class="tab__item">
+                <img src="./img/3_2.jpg" alt="photo" class="tab__photo">
+                <p class="tab__author">Джон Уайт</p>
+                <h4 class="tab__name">Скалистый берег</h4>
+                <p class="tab__desc">Цветная литография (40х60)</p>
+                <p class="tab__price">17 500 руб</p>
+                <button class="tab__button">В корзину</button>
+              </li>
+
+              <li class="tab__item">
+                <img src="./img/3_3.jpg" alt="photo" class="tab__photo">
+                <p class="tab__author">Джим Уотсон</p>
+                <h4 class="tab__name">Река и горы</h4>
+                <p class="tab__desc">Акварель, бумага (50х80)</p>
+                <p class="tab__price">20 500 руб</p>
+                <button class="tab__button">В корзину</button>
+              </li>
+
+              <li class="tab__item">
+                <img src="./img/3_4.jpg" alt="photo" class="tab__photo">
+                <p class="tab__author">Юджин Зиллион</p>
+                <h4 class="tab__name">Белый попугай</h4>
+                <p class="tab__desc">Цветная литография (40х60)</p>
+                <p class="tab__price">15 500 руб</p>
+                <button class="tab__button">В корзину</button>
+              </li>
+
+              <li class="tab__item">
+                <img src="./img/3_5.jpg" alt="photo" class="tab__photo">
+                <p class="tab__author">Эрик Гиллман</p>
+                <h4 class="tab__name">Ночная рыба</h4>
+                <p class="tab__desc">Бумага, акрил (50х80)</p>
+                <p class="tab__price">12 500 руб</p>
+                <button class="tab__button">В корзину</button>
+              </li>
+
+              <li class="tab__item">
+                <img src="./img/3_6.jpg" alt="photo" class="tab__photo">
+                <p class="tab__author">Альфред Барр</p>
+                <h4 class="tab__name">Рыжий кот</h4>
+                <p class="tab__desc">Цветная литография (40х60)</p>
+                <p class="tab__price">21 000 руб</p>
+                <button class="tab__button">В корзину</button>
+              </li>
+
+
+            </ul>
+          </div>
+        </div>
+        
+
+      </div>
+    </section>
+
+    <section class="container section__collection" id="newCollection">
         <div class="collection__content general-container">
           <div class="collection__head">
             <img src="./img/star-collection.svg" alt="star">
@@ -114,7 +332,7 @@
         </div>
     </section>
 
-    <section class="section__team general-container">
+    <section class="section__team general-container" id="ourTeam">
       <div class="team__left">
         <img src="./img/left-team.png" alt="portrait" class="team__left-img">
       </div>
