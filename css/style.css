@@ -122,6 +122,10 @@ body, button {
 
 /* Hero section styles */
 
+.section__hero {
+    margin-bottom: 70px;
+}
+
 .hero__content {
     display: flex;
     flex-direction: row;
