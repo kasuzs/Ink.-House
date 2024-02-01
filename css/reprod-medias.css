@@ -1,0 +1,70 @@
+@media (max-width: 768px) {
+    .reprod__title {
+        font-size: 30px;
+    }
+    .tab__list {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media (max-width: 720px) {
+
+    .tab__photo {
+
+        margin-bottom: 15px;
+    }
+    .tab__author {
+        font-size: 16px;
+    }
+    .tab__name {
+        font-size: 24px;
+        margin-bottom: 10px;
+    }
+    .tab__desc {
+        font-size: 16px;
+    }
+    .tab__price {
+        font-size: 20px;
+        margin-bottom: 10px;
+    }
+    .tab__button {
+        font-size: 18px;
+    }
+
+}
+
+@media (max-width: 690px) {
+    .reprod__head {
+        display: block;
+        margin-bottom: 20px;
+    }
+    .reprod__list::-webkit-scrollbar {
+        width: 0;
+      }
+    .reprod__title {
+        margin-bottom: 20px;
+    }
+    .reprod__list {
+        padding: 0;
+        margin: 0;
+    }
+}
+
+@media (max-width: 510px) {
+    .reprod__title {
+        font-size: 24px;
+    }
+    .reprod__button {
+        font-size: 18px;
+    }
+    .reprod__nav {
+        max-height: 41px;
+        height: 100%;
+    }
+    .tab__list {
+        grid-template-columns: 1fr;
+    }
+
+
+
+}

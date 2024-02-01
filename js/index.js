@@ -24,7 +24,7 @@ reprodButton.forEach((button) => {
 })
 
 
-// Tabs 
+// Tabs
 
 document.querySelectorAll(".how-we-work__btn").forEach(function(tabsBtn) {
     tabsBtn.addEventListener("click", function(event) {
