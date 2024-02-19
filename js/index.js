@@ -26,15 +26,6 @@ reprodButton.forEach((button) => {
 
 // Tabs
 
-document.querySelectorAll(".how-we-work__btn").forEach(function(tabsBtn) {
-    tabsBtn.addEventListener("click", function(event) {
-      const path = event.currentTarget.dataset.path;
-      document.querySelectorAll(".tab-content").forEach(function(tabContent) {
-        tabContent.classList.remove("tab-content-active");
-      });
-      document.querySelector(`[data-target=${path}]`).classList.add("tab-content-active");
-    })
-  })
 
 document.querySelectorAll(".reprod__button").forEach((button) => {
     button.addEventListener("click", (event) => {
@@ -47,7 +38,6 @@ document.querySelectorAll(".reprod__button").forEach((button) => {
 })
 
 
-
 var burger = document.querySelector('.header__burger');
 var menu = document.querySelector('.header__burger-menu');
 
@@ -56,3 +46,15 @@ document.addEventListener('click', function(event) {
     menu.classList.remove("active__burger");
   }
 });
+
+
+document.querySelectorAll(".tab__button").forEach((button) => {
+  button.addEventListener("click", () => {
+    document.querySelector(".order__alert").classList.add("active-alert");
+  })
+})
+
+document.querySelector(".alert__close").addEventListener("click", () => {
+  document.querySelector(".order__alert").classList.remove("active-alert");
+})
+
