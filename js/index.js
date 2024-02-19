@@ -46,15 +46,3 @@ document.addEventListener('click', function(event) {
     menu.classList.remove("active__burger");
   }
 });
-
-
-document.querySelectorAll(".tab__button").forEach((button) => {
-  button.addEventListener("click", () => {
-    document.querySelector(".order__alert").classList.add("active-alert");
-  })
-})
-
-document.querySelector(".alert__close").addEventListener("click", () => {
-  document.querySelector(".order__alert").classList.remove("active-alert");
-})
-
